@@ -1,0 +1,39 @@
+h1{
+    text-shadow: 2px 2px 4px rgb(181, 40, 117);
+}
+
+.title{
+    display: flex;
+    justify-content: left;
+    gap:15px;
+}
+
+.home{
+    text-decoration: underline;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+.gitLinks a {
+    text-decoration: none;
+    color: rgb(187, 86, 141);
+    font-weight: bold;
+}
+
+.gitLinks a:hover {
+    color: rgb(181, 40, 117);
+    text-decoration: underline;
+}
+
+.computer{
+    border-radius: 25px;
+    width: 400px;
+    height: 470px;
+}
+
+table tr{
+    display: flex;
+    width: 100%;
+}

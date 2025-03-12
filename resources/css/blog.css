@@ -1,0 +1,30 @@
+article {
+    border: 1px solid rgb(187, 86, 141);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.excerpt {
+    color: #504b4b;
+}
+
+a.read-more {
+    text-decoration: none;
+    color: rgb(187, 86, 141);
+    font-weight: bold;
+}
+
+a.read-more:hover {
+    color: rgb(181, 40, 117);
+    text-decoration: underline;
+}
+
+summary {
+    font-weight: bold;
+}
