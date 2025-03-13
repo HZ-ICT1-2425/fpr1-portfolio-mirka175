@@ -53,7 +53,8 @@ class FaqsTableSeeder extends Seeder
         ],
         [
             'id' => 3,
-            'question' => 'How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?',
+            'question' => 'How can I buy something (like when I sign up for the IT introduction event) on the
+            HZ web shop?',
             'answer' => 'Click on Order at the desired item to add it to your shopping cart. Repeat this
             for all desired items and click on Shopping cart in the menu on the left when done. Check
             your order and select Payment through Study store. You are forwarded to the Study store where
