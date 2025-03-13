@@ -1,0 +1,125 @@
+/*Layout*/
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 95vh;
+    background-color: rgb(255, 192, 203);
+    font-family: 'Helvetica Neue';
+    color: #4C4343;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1em 0em 0;
+}
+
+.mainAndAsideMenu {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+main {
+    padding: 2em 0 3em 0;
+    flex: 5 5 150px;
+}
+
+@media all and (max-width: 550px) {
+    .mainAndAsideMenu {
+        flex-direction: column;
+    }
+
+    main {
+        padding: 5em 0 5em 0;
+    }
+}
+
+/*Nav bar styling*/
+.navbar {
+    display: flex;
+    background-color: rgb(187, 86, 141);
+    color: white;
+}
+
+.links ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    margin-left: 40%;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 3.5vh 3vw;
+    display: block;
+}
+
+.links ul li a.is-active {
+    text-decoration: underline;
+}
+
+.links li:hover {
+    background-color: rgb(181, 40, 117);
+    border-radius: 10px;
+}
+
+/*Aside menu*/
+aside {
+    background-color: rgb(204, 119, 148);
+    font-size: 15px;
+}
+
+.asideMenu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.asideMenu li a {
+    display: block;
+    color: white;
+    background-color: rgb(187, 86, 141);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.asideMenu li a:hover {
+    background-color: rgb(181, 40, 117);
+    text-decoration: underline;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    padding-left: 20px;
+    background-color: rgb(187, 86, 141);
+    font-size: 20px;
+}
+
+.text {
+    font-weight: bold;
+    color: white;
+}
+
+.footerPhotos {
+    float: right;
+    gap:15px;
+    margin-top: 5px;
+    margin-left: 75%;
+}
