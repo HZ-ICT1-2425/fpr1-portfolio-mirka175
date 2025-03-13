@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class FAQController extends Controller
 {
+    /**
+     * Display a listing of Frequently asked questions.
+     */
     public function index()
     {
         return view('faq.index', [

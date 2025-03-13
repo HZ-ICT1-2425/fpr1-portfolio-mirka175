@@ -35,6 +35,10 @@ class FaqsTableSeeder extends Seeder
             'answer' => 'It is not possible to park directly at the HZ on Het Groene Woud. There is 1 special parking space available on the grounds for people with disabilities and/or chronic conditions. The car park on Kousteensedijk has a number of spaces for visitors, staff and students of Het Groene Woud. This car park is an 8-minute walk from the HZ. Upon showing your entry card, you can then get an exit card at the JRCZ service desk.',
         ]
     ];
+
+    /**
+     * Seed the application's database.
+     */
     public function run(): void
     {
         foreach ($this->data as $item) {
