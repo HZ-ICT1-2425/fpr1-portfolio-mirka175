@@ -1,0 +1,38 @@
+article {
+    border: 1px solid rgb(187, 86, 141);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 30px;
+    display: inline;
+}
+
+article p{
+    color: #504b4b;
+}
+
+article ul {
+    color: #504b4b;
+}
+
+a.mynetpay {
+    text-decoration: none;
+    color: rgb(187, 86, 141);
+    font-weight: bold;
+}
+
+a.mynetpay:hover {
+    color: rgb(181, 40, 117);
+    text-decoration: underline;
+}
+
+summary {
+    font-weight: bold;
+}
