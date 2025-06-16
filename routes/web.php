@@ -19,4 +19,5 @@ Route::get('dashboard', function () {
  * The routes about tasks
  */
 Route::get('/faq', [FAQController::class, 'index'])->name('faq.index');
-
+Route::get('/faqs/create', [FaqController::class, 'create'])->name('faqs.create');
+Route::post('/faqs', [FaqController::class, 'store'])->name('faqs.store');
