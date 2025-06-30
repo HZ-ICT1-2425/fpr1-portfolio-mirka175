@@ -34,35 +34,53 @@
   "resources/css/app.css": {
     "file": "assets/app-C0ApmioZ.css",
     "src": "resources/css/app.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
   },
   "resources/css/blog.css": {
     "file": "assets/blog-CL6m-oG2.css",
     "src": "resources/css/blog.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "blog.css"
+    ]
   },
   "resources/css/dashboard.css": {
     "file": "assets/dashboard-BspmJ_sX.css",
     "src": "resources/css/dashboard.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "dashboard.css"
+    ]
   },
   "resources/css/faq.css": {
     "file": "assets/faq-BUJWx-Vh.css",
     "src": "resources/css/faq.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "faq.css"
+    ]
   },
   "resources/css/home.css": {
     "file": "assets/home-BAzZlhcR.css",
     "src": "resources/css/home.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "home.css"
+    ]
   },
   "resources/css/profile.css": {
     "file": "assets/profile-DrOvpTTd.css",
     "src": "resources/css/profile.css",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "profile.css"
+    ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-Xaw6OIO1.js",
+    "file": "assets/app-DNxiirP_.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
@@ -70,6 +88,9 @@
   "resources/sass/app.scss": {
     "file": "assets/app-FoJfiaHZ.css",
     "src": "resources/sass/app.scss",
-    "isEntry": true
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
   }
 }
