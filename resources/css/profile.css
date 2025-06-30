@@ -1,0 +1,45 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+.name {
+    display: inline;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 5px;
+    font-size: 25px;
+    border: 0px;
+    text-align: left;
+    margin-left: 30px;
+    width: 20%;
+}
+
+table img {
+    width: 60px;
+    height: 59px;
+}
+
+.education {
+    font-size: 25px;
+}
+
+.hobbies {
+    font-size: 25px;
+}
+
+.hobbiesList {
+    overflow: hidden;
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+.images {
+    margin-left: 540px;
+    margin-top: -480px;
+    border-radius: 25px;
+    width: 470px;
+    height: 500px;
+}
